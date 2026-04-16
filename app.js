@@ -19,6 +19,10 @@ app.use(cors({ //allow request from any origin
 }));
 
 
+app.get("/", (req, res) => {
+  res.send("Backend running 🚀");
+});
+
 
 app.use("/api/category",require("./routes/category.routes"));
 app.use("/api/product",require("./routes/product.routes"));
