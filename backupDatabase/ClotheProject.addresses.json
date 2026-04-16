@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "69dc925d2c0a1a0fd788c72c"
+  },
+  "user": {
+    "$oid": "69d4c90509d727f8cf5daa4d"
+  },
+  "name": "monalisa",
+  "mobile": "8792534193",
+  "house": "20 A Ganga Heightssss",
+  "area": "vesu vr mall",
+  "pincode": "394107",
+  "city": "Surat",
+  "state": "Gujarat",
+  "landmark": "veer narmadsouth gujarat university",
+  "addressType": "OFFICE",
+  "createdAt": {
+    "$date": "2026-04-13T06:51:09.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-13T06:51:09.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dc981f2c0a1a0fd788caee"
+  },
+  "user": {
+    "$oid": "69dc97eb2c0a1a0fd788c978"
+  },
+  "name": "radhija",
+  "mobile": "1234567898",
+  "house": "20 A Ganga Heightsss",
+  "area": "Shivaji Nagarrr",
+  "pincode": "394107",
+  "city": "Surat",
+  "state": "Gujarat",
+  "landmark": "Near the Bhavnagar University",
+  "addressType": "HOME",
+  "createdAt": {
+    "$date": "2026-04-13T07:15:43.032Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-13T07:15:43.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69df6641053db77a070e0063"
+  },
+  "user": {
+    "$oid": "69df6542053db77a070dfed3"
+  },
+  "name": "neha",
+  "mobile": "9999999999",
+  "house": "20 A Ganga Heightsss",
+  "area": "Shivaji Nagarrr",
+  "pincode": "394107",
+  "city": "Surat",
+  "state": "Gujarat",
+  "landmark": "Near the Bhavnagar University",
+  "addressType": "HOME",
+  "createdAt": {
+    "$date": "2026-04-15T10:19:45.600Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T10:19:45.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e085108319c9b1bb22bf4d"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "name": "shila",
+  "mobile": "1234567899",
+  "house": "20 A Ganga Heightsss",
+  "area": "Shivaji Nagarrr",
+  "pincode": "394107",
+  "city": "Surat",
+  "state": "Gujarat",
+  "landmark": "veer narmas south gujarat university",
+  "addressType": "HOME",
+  "createdAt": {
+    "$date": "2026-04-16T06:43:28.144Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-16T06:43:42.592Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "69ddcec08418c2160225e60c"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce05fc47365ec524b2b9d4"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69ddcec08418c2160225e60d"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69ce076426ffda0e4d322632"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69ddcec08418c2160225e60e"
+      }
+    }
+  ],
+  "totalAmount": 2598,
+  "paymentMethod": "CARD",
+  "paymentStatus": "SUCCESS",
+  "orderStatus": "PICKED",
+  "razorpay_order_id": "order_SdFtcBa0huzL0P",
+  "createdAt": {
+    "$date": "2026-04-14T05:21:04.251Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T12:04:31.014Z"
+  },
+  "__v": 0,
+  "razorpay_payment_id": "pay_SdFu5Mg1ezznqV",
+  "razorpay_signature": "3a49aec60b6b4c2273d1cee24940c1a622307c7c79dd6d1d9287e72ef0e42b38",
+  "deliveryDate": {
+    "$date": "2026-04-15T12:03:56.454Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ddd37b8418c2160225e7c7"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce05fc47365ec524b2b9d4"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69ddd37b8418c2160225e7c8"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69ce076426ffda0e4d322632"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69ddd37b8418c2160225e7c9"
+      }
+    }
+  ],
+  "totalAmount": 2598,
+  "paymentMethod": "CARD",
+  "paymentStatus": "SUCCESS",
+  "orderStatus": "RETURNED",
+  "razorpay_order_id": "order_SdGEwB3liuuDIw",
+  "createdAt": {
+    "$date": "2026-04-14T05:41:15.304Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T11:06:43.301Z"
+  },
+  "__v": 0,
+  "razorpay_payment_id": "pay_SdGFuCoPdJK4UB",
+  "razorpay_signature": "ed33080abeda127cf8852acb371520d15c1bb7513d65ea3460994e26c274f7b0"
+},
+{
+  "_id": {
+    "$oid": "69de06ad8418c2160225fbd9"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce05fc47365ec524b2b9d4"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69de06ad8418c2160225fbda"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69ce094b0411246c2bdcb3c7"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69de06ad8418c2160225fbdb"
+      }
+    }
+  ],
+  "totalAmount": 3798,
+  "paymentMethod": "COD",
+  "paymentStatus": "PENDING",
+  "orderStatus": "CANCELLED",
+  "razorpay_order_id": null,
+  "createdAt": {
+    "$date": "2026-04-14T09:19:41.168Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T11:05:44.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69df5d1024fafd4fed4a2639"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce057447365ec524b2b9d2"
+      },
+      "quantity": 1,
+      "size": "S",
+      "_id": {
+        "$oid": "69df5d1024fafd4fed4a263a"
+      }
+    }
+  ],
+  "totalAmount": 499,
+  "paymentMethod": "CARD",
+  "paymentStatus": "PENDING",
+  "orderStatus": "DELIVERED",
+  "razorpay_order_id": "order_Sdiqp9b42D31qj",
+  "createdAt": {
+    "$date": "2026-04-15T09:40:32.442Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T10:09:09.872Z"
+  },
+  "__v": 0,
+  "deliveryDate": {
+    "$date": "2026-04-15T10:09:09.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69df6ae4053db77a070e04e0"
+  },
+  "user": {
+    "$oid": "69df6542053db77a070dfed3"
+  },
+  "address": {
+    "$oid": "69df6641053db77a070e0063"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce05fc47365ec524b2b9d4"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69df6ae4053db77a070e04e1"
+      }
+    }
+  ],
+  "totalAmount": 1299,
+  "paymentMethod": "COD",
+  "paymentStatus": "PENDING",
+  "orderStatus": "PLACED",
+  "razorpay_order_id": null,
+  "createdAt": {
+    "$date": "2026-04-15T10:39:32.146Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T10:39:32.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69df91d38ea04555d54c1816"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce08110411246c2bdcb3bd"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69df91d38ea04555d54c1817"
+      }
+    }
+  ],
+  "totalAmount": 2999,
+  "paymentMethod": "CARD",
+  "paymentStatus": "PENDING",
+  "orderStatus": "DELIVERED",
+  "razorpay_order_id": "order_SdmgdT7mCrMKzg",
+  "createdAt": {
+    "$date": "2026-04-15T13:25:39.626Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-16T05:00:02.476Z"
+  },
+  "__v": 0,
+  "deliveryDate": {
+    "$date": "2026-04-16T05:00:02.475Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69df929d8ea04555d54c18be"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "address": {
+    "$oid": "69ddceb78418c2160225e5f7"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce08110411246c2bdcb3bd"
+      },
+      "quantity": 1,
+      "size": "M",
+      "_id": {
+        "$oid": "69df929d8ea04555d54c18bf"
+      }
+    }
+  ],
+  "totalAmount": 2999,
+  "paymentMethod": "COD",
+  "paymentStatus": "PENDING",
+  "orderStatus": "PREPARING",
+  "razorpay_order_id": null,
+  "createdAt": {
+    "$date": "2026-04-15T13:29:01.058Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-16T04:57:23.126Z"
+  },
+  "__v": 0
+}]

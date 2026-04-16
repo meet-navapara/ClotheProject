@@ -1,0 +1,42 @@
+###
+GET http://localhost:8000/api/order/my-orders HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGRjZGZkODQxOGMyMTYwMjI1ZTQ4MSIsImlhdCI6MTc3NjE2OTcyMCwiZXhwIjoxNzc2Nzc0NTIwfQ.Sdh7ymbV-w_6Wp2drxD38fQlWolhxjkejZrfDeQb7x8
+
+
+
+
+###
+# PUT http://localhost:8000/api/order/cancel-order/{orderId} HTTP/1.1
+PUT http://localhost:8000/api/order/cancel-order/69df5d1024fafd4fed4a2639 HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGRjZGZkODQxOGMyMTYwMjI1ZTQ4MSIsImlhdCI6MTc3NjE2OTcyMCwiZXhwIjoxNzc2Nzc0NTIwfQ.Sdh7ymbV-w_6Wp2drxD38fQlWolhxjkejZrfDeQb7x8
+
+
+
+###
+# PUT http://localhost:8000/api/order/return-order/{orderId} HTTP/1.1
+PUT http://localhost:8000/api/order/return-order/69df5d1024fafd4fed4a2639 HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGRjZGZkODQxOGMyMTYwMjI1ZTQ4MSIsImlhdCI6MTc3NjE2OTcyMCwiZXhwIjoxNzc2Nzc0NTIwfQ.Sdh7ymbV-w_6Wp2drxD38fQlWolhxjkejZrfDeQb7x8
+
+
+
+
+//admin can update the status in backend  ---front-end in not used this api
+###
+# PUT http://localhost:8000/api/order/update-order-status/{orderId} HTTP/1.1
+PUT http://localhost:8000/api/order/update-order-status/69df91d38ea04555d54c1816 HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGRjZGZkODQxOGMyMTYwMjI1ZTQ4MSIsImlhdCI6MTc3NjI1OTI5MSwiZXhwIjoxNzc2ODY0MDkxfQ.Cp6SuXavLHUxJkrb7ilnHEyjdbm8FvgrXRYc1uFf284
+
+{
+  "status": "DELIVERED"
+}
+
+
+# "status": "PLACED"
+# "status": "CONFIRMED"
+# "status": "PREPARING"
+# "status": "PICKED"
+# "status": "DELIVERED"

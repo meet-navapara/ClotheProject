@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "69dc97f62c0a1a0fd788ca2f"
+  },
+  "user": {
+    "$oid": "69dc97eb2c0a1a0fd788c978"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce057447365ec524b2b9d2"
+      },
+      "quantity": 1,
+      "size": "S",
+      "_id": {
+        "$oid": "69dc97f62c0a1a0fd788ca30"
+      }
+    },
+    {
+      "product": {
+        "$oid": "69ce05fc47365ec524b2b9d4"
+      },
+      "quantity": 1,
+      "size": "S",
+      "_id": {
+        "$oid": "69dc97ff2c0a1a0fd788cabf"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-04-13T07:15:02.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-13T07:15:11.326Z"
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "69e082028319c9b1bb22baec"
+  },
+  "user": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "69ce057447365ec524b2b9d2"
+      },
+      "quantity": 2,
+      "size": "M",
+      "_id": {
+        "$oid": "69e082028319c9b1bb22baed"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-04-16T06:30:26.949Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-16T06:41:41.598Z"
+  },
+  "__v": 0
+}]

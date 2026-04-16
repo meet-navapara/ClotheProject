@@ -1,0 +1,37 @@
+###
+##create order mate ni api
+POST http://localhost:8000/api/payment/create-order
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGM5YjhlYThmMWFkY2MwZDkxOTVmZSIsImlhdCI6MTc3NjA4MDgwOCwiZXhwIjoxNzc2Njg1NjA4fQ.-7X8TQ0nvvHDE3TYHnSh1o-jQaY6MPpEAhT0Vko0MkA
+
+{
+  "amount": 7695,
+  "products": [
+    {
+      "product": "69ce05fc47365ec524b2b9d4",
+      "quantity": 2,
+      "size": "M"
+    },
+    {
+      "product": "65f456def456def456def456",
+      "quantity": 1,
+      "size": "S"
+    }
+  ],
+  "address": "69d7880e989433076c2e2ce1",
+  "paymentMethod": "CARD"
+}
+
+
+
+//verify payment mate ni api
+###
+POST http://localhost:8000/api/payment/verify-payment
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTc5Njg5NywiZXhwIjoxNzc2NDAxNjk3fQ.RWUl3nYA302Pz0Uji-5oRICrAjBjUDlbF79ZtPLNRiU
+
+{
+  "razorpay_order_id": "order_xxxxx",
+  "razorpay_payment_id": "pay_xxxxx",  //verify then front-end generate the razorpay_payment_id 
+  "razorpay_signature": "generated_signature"
+}

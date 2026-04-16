@@ -1,0 +1,371 @@
+[{
+  "_id": {
+    "$oid": "69ce057447365ec524b2b9d2"
+  },
+  "name": "Long-Sleeved Top",
+  "price": 499,
+  "category": {
+    "$oid": "69cd1183527e939cab46836e"
+  },
+  "brand": "COS",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_jhhq4p.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+    }
+  ],
+  "stock": 5,
+  "isBestSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T05:58:12.873Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T05:58:12.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce05fc47365ec524b2b9d4"
+  },
+  "name": "Cropped Cotton Shirt",
+  "price": 1299,
+  "category": {
+    "$oid": "69cd1183527e939cab46836e"
+  },
+  "brand": "ZARA",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_ftxtso.png"
+    }
+  ],
+  "stock": 6,
+  "isBestSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T06:00:28.145Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:00:28.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce076426ffda0e4d322632"
+  },
+  "name": "Halterneck Jumpsuit",
+  "price": 1299,
+  "category": {
+    "$oid": "69cd11a7527e939cab468370"
+  },
+  "brand": "H&M",
+  "sizes": [
+    "XXS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_fiqgxl.png"
+    }
+  ],
+  "stock": 10,
+  "isBestSelling": false,
+  "isSelling": true,
+  "createdAt": {
+    "$date": "2026-04-02T06:06:28.634Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:06:28.634Z"
+  },
+  "__v": 0,
+  "originalPrice": "699"
+},
+{
+  "_id": {
+    "$oid": "69ce08110411246c2bdcb3bd"
+  },
+  "name": "Cotton Strappy Dress",
+  "price": 2999,
+  "category": {
+    "$oid": "69cd11a7527e939cab468370"
+  },
+  "brand": "H&M",
+  "sizes": [
+    "XXS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/5_af60vt.png"
+    }
+  ],
+  "stock": 10,
+  "isBestSelling": false,
+  "isSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T06:09:21.485Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:09:21.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce08570411246c2bdcb3bf"
+  },
+  "name": "Wide High Ankle Jeans",
+  "price": 2499,
+  "category": {
+    "$oid": "69cd1251527e939cab468372"
+  },
+  "brand": "ZARA",
+  "sizes": [
+    "L",
+    "M",
+    "S",
+    "XXL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_p8chz2.png"
+    }
+  ],
+  "stock": 5,
+  "isBestSelling": false,
+  "isSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T06:10:31.989Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:10:31.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce08850411246c2bdcb3c1"
+  },
+  "name": "Ribbed Short-Sleeved Shirt",
+  "price": 599,
+  "category": {
+    "$oid": "69cd1251527e939cab468372"
+  },
+  "brand": "ZARA",
+  "sizes": [
+    "L",
+    "M",
+    "S",
+    "XXL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/7_hrizm9.png"
+    }
+  ],
+  "stock": 4,
+  "isBestSelling": false,
+  "isSelling": true,
+  "createdAt": {
+    "$date": "2026-04-02T06:11:17.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:11:17.452Z"
+  },
+  "__v": 0,
+  "originalPrice": "299"
+},
+{
+  "_id": {
+    "$oid": "69ce08dd0411246c2bdcb3c3"
+  },
+  "name": "Draped Midi Dress",
+  "price": 1499,
+  "category": {
+    "$oid": "69cd1314527e939cab468374"
+  },
+  "brand": "H&M",
+  "sizes": [
+    "XXS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_fiqgxl.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+    }
+  ],
+  "stock": 0,
+  "isBestSelling": true,
+  "isSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T06:12:45.946Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:12:45.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ce09060411246c2bdcb3c5"
+  },
+  "name": "Cotton Strappy Dress",
+  "price": 2999,
+  "category": {
+    "$oid": "69cd1314527e939cab468374"
+  },
+  "brand": "H&M",
+  "sizes": [
+    "XXS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_fiqgxl.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+    }
+  ],
+  "stock": 3,
+  "isBestSelling": false,
+  "isSelling": true,
+  "createdAt": {
+    "$date": "2026-04-02T06:13:26.505Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:13:26.505Z"
+  },
+  "__v": 0,
+  "originalPrice": "1999"
+},
+{
+  "_id": {
+    "$oid": "69ce094b0411246c2bdcb3c7"
+  },
+  "name": "Wide High Ankle Jeans",
+  "price": 2499,
+  "category": {
+    "$oid": "69cd133c527e939cab468376"
+  },
+  "brand": "COS",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_fiqgxl.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+    }
+  ],
+  "stock": 10,
+  "isBestSelling": true,
+  "isSelling": false,
+  "createdAt": {
+    "$date": "2026-04-02T06:14:35.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-02T06:14:35.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cf6a192401071112d5702f"
+  },
+  "name": "Wide High Ankle Jeans",
+  "originalPrice": 1299,
+  "price": 1499,
+  "category": {
+    "$oid": "69cd133c527e939cab468376"
+  },
+  "brand": "COS",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "image": [
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_fiqgxl.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png"
+    },
+    {
+      "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+    }
+  ],
+  "stock": 0,
+  "isBestSelling": true,
+  "isSelling": false,
+  "createdAt": {
+    "$date": "2026-04-03T07:19:53.374Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-03T07:19:53.374Z"
+  },
+  "__v": 0
+}]

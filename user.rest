@@ -1,0 +1,65 @@
+###
+POST http://localhost:8000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "123456"
+}
+
+
+###
+POST http://localhost:8000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "mobile": "1234567899",
+    "password": "123456"
+}
+
+
+
+###
+POST http://localhost:8000/api/user/send-otp HTTP/1.1
+content-type: application/json
+
+{
+    "mobile" : "8792534193"
+}
+
+
+
+###
+POST http://localhost:8000/api/user/verify-otp HTTP/1.1
+content-type: application/json
+
+{
+    "mobile": "8792534193", 
+    "otp": "665476"
+}
+
+
+###
+POST http://localhost:8000/api/user/logout HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTcxODAzMywiZXhwIjoxNzc2MzIyODMzfQ.zWMs9WXj-fzWMjUa3WL1kvDaaWWOeAHc1aV4jYmIbxc
+
+
+# "email": "demo1@example.com",
+#     "name": "demo1",
+#     "mobile": "1234567891",
+#     "password": "123456",
+
+
+###
+GET http://localhost:8000/api/user/current-user HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGRjZGZkODQxOGMyMTYwMjI1ZTQ4MSIsImlhdCI6MTc3NjE2NTIyMiwiZXhwIjoxNzc2NzcwMDIyfQ.ak9HPLbmlFDIoLX1k2dr4T9FqRl3XPDmgKchCRYfOxk
+
+
+
+###
+DELETE http://localhost:8000/api/user/delete-account HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGM5YjhlYThmMWFkY2MwZDkxOTVmZSIsImlhdCI6MTc3NjA4NDU3NSwiZXhwIjoxNzc2Njg5Mzc1fQ.NBg8bFwIS8uPKOKP4CdvsNRFKwCD6O4QhD2TdrL-35I

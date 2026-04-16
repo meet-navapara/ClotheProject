@@ -1,0 +1,104 @@
+//category add mate ni api
+POST http://localhost:8000/api/category/create-category HTTP/1.1
+content-Type: application/json
+
+{
+    "name": "Winter & Outerwear",
+    "image": "https://res.cloudinary.com/dzlyngnz8/image/upload/5_ct8yzq.png"
+}
+
+
+//all category home page mate ni api
+###
+GET http://localhost:8000/api/category/get-categories HTTP/1.1
+content-type: application/json
+
+
+
+//category delete mate ni api --------user nathi kari api
+###
+# DELETE http://localhost:8000/api/category/delete-category/67e9427086324b2b2e4b4b4b HTTP/1.1
+# content-type: application/json
+
+
+//product add
+###
+POST http://localhost:8000/api/product/create-product HTTP/1.1
+content-Type: application/json
+
+{
+    "name": "Wide High Ankle Jeans",
+    "image": "https://res.cloudinary.com/dzlyngnz8/image/upload/6_rdienw.png",
+    "price":  1499,
+    "originalPrice": 1299,
+    "category": "69cd133c527e939cab468376",
+    "brand": "COS",
+    "sizes": "S,M,L,XL",
+    "isBestSelling": true
+    
+}
+
+# "isBestSelling": true
+# isSelling: true
+
+
+
+//all products api shop page mate
+###
+GET http://localhost:8000/api/product/get-products HTTP/1.1
+content-type: application/json
+
+
+
+###
+# GET http://localhost:8000/api/product/get-products?category=ID&size=M&brand=COS
+
+//shop page ma category wise size and brand nu filter mate ni api
+###
+GET http://localhost:8000/api/product/get-products?category=69cd133c527e939cab468376&size=S&brand=COS
+
+
+
+//home page ni product mate limit product api
+###
+GET http://localhost:8000/api/product/get-products?page=1&limit=8
+
+
+
+//selling products
+###
+GET http://localhost:8000/api/product/get-products?isSelling=true
+
+
+
+//best selling products
+###
+GET http://localhost:8000/api/product/get-products?isBestSelling=true
+
+
+
+
+//sorting by new arrival, priceLow, priceHigh, az, za
+###
+GET http://localhost:8000/api/product/get-products?sort=new
+
+###
+GET http://localhost:8000/api/product/get-products?sort=priceLow
+
+###
+GET http://localhost:8000/api/product/get-products?sort=priceHigh
+
+###
+GET http://localhost:8000/api/product/get-products?sort=az
+
+###
+GET http://localhost:8000/api/product/get-products?sort=za
+
+
+
+
+
+
+//niche ni ai shop page ma niche discover button che aeni mate che ----- used nathi kari api
+###
+GET http://localhost:6000/api/product/get-products?page=1&limit=10&sort=new

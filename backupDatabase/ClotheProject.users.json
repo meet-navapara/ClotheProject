@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "69d34073db6e3210f064578c"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "$2b$10$wLer7I5BJBSzV4QNrklGZO.ZOaT4WX5lRZOrqKrMSC2b.Lge/J6US",
+  "createdAt": {
+    "$date": "2026-04-06T05:11:15.729Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-06T05:11:15.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69d354ca2e6a4a561e022a7b"
+  },
+  "name": "demo",
+  "email": "demo@example.com",
+  "password": "$2b$10$hAC9Xsf01dwRQtoxvLPSOOgP6MDG409mVR8ug0WgS1/bh9hlTwfeW",
+  "mobile": "9876543210",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-06T06:38:02.054Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-06T06:38:02.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69d3823b5bad1c49063397db"
+  },
+  "name": "demo2",
+  "email": "demo2@example.com",
+  "password": "$2b$10$nBPkOzCkmsuYRwUQcmgoYOuWMczsz42P5MaBnT0MU1PLAmtojcYGW",
+  "mobile": "2345678922",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-06T09:51:55.151Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-06T09:51:55.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69d4c90509d727f8cf5daa4d"
+  },
+  "mobile": "8792534193",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-07T09:06:13.656Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-14T12:12:32.433Z"
+  },
+  "__v": 0,
+  "email": "monalisaaa@gmail.com",
+  "fname": "monalisaa",
+  "gender": "male",
+  "lname": "patell"
+},
+{
+  "_id": {
+    "$oid": "69dc97eb2c0a1a0fd788c978"
+  },
+  "mobile": "1234567898",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-13T07:14:51.478Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-14T11:41:31.697Z"
+  },
+  "__v": 0,
+  "email": "zoyaaaa.khan@example.com",
+  "fname": "zoyaaaaa",
+  "gender": "female",
+  "lname": "khannnn"
+},
+{
+  "_id": {
+    "$oid": "69ddcdfd8418c2160225e481"
+  },
+  "mobile": "1234567899",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-14T05:17:49.465Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-14T12:29:48.295Z"
+  },
+  "__v": 0,
+  "email": "john.doe@example.com",
+  "fname": "John",
+  "gender": "male",
+  "lname": "Doe"
+},
+{
+  "_id": {
+    "$oid": "69de304b5e109df3b13a957e"
+  },
+  "mobile": "5555555555",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-14T12:17:15.237Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-14T12:21:27.494Z"
+  },
+  "__v": 0,
+  "email": "hastittttt@gmail.com",
+  "fname": "hasti",
+  "gender": "male",
+  "lname": "savaliya"
+},
+{
+  "_id": {
+    "$oid": "69df6542053db77a070dfed3"
+  },
+  "mobile": "9999999999",
+  "isVerified": true,
+  "createdAt": {
+    "$date": "2026-04-15T10:15:30.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T10:15:30.646Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,33 @@
+###
+POST http://localhost:8000/api/profile/add-profile HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGM5N2ViMmMwYTFhMGZkNzg4Yzk3OCIsImlhdCI6MTc3NjE2Njc2NiwiZXhwIjoxNzc2NzcxNTY2fQ.hEc3HnDW5NROcdXDxXS1HGW15MR_0PeEGDHKmeX_3Hc
+
+{
+    "fname": "zoya",
+    "lname": "khan",
+    "email": "zoya.khan@example.com",
+    "gender": "male",
+    "mobile": "1234567898"
+}
+
+
+###
+GET http://localhost:8000/api/profile/get-profile HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGM5N2ViMmMwYTFhMGZkNzg4Yzk3OCIsImlhdCI6MTc3NjE2Njc2NiwiZXhwIjoxNzc2NzcxNTY2fQ.hEc3HnDW5NROcdXDxXS1HGW15MR_0PeEGDHKmeX_3Hc
+
+
+
+###
+PUT http://localhost:8000/api/profile/update-profile HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZGM5N2ViMmMwYTFhMGZkNzg4Yzk3OCIsImlhdCI6MTc3NjE2Njc2NiwiZXhwIjoxNzc2NzcxNTY2fQ.hEc3HnDW5NROcdXDxXS1HGW15MR_0PeEGDHKmeX_3Hc
+
+{
+    "fname": "zoyaaaaa",
+    "lname": "khannnn",
+    "email": "zoyaaaa.khan@example.com",
+    "gender": "female",
+    "mobile": "1234567899"
+}

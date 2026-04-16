@@ -1,0 +1,27 @@
+POST http://localhost:8000/api/wishlist/add-to-wishlist HTTP/1.1
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTQ4MDQxOCwiZXhwIjoxNzc2MDg1MjE4fQ.iFCGnWEAQeae1lM3EHK4_RS1bgYRipwZ4C0q8mpum_w
+
+{
+    "productId": "69ce057447365ec524b2b9d2",
+    "userId": "69d3ae62c1ac6f071db4f0e0"
+}
+
+
+###
+GET http://localhost:8000/api/wishlist/get-wishlist HTTP/1.1
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTYyNDg4MCwiZXhwIjoxNzc1NjI1MDAwfQ.u53uwb0cXFFurbYzx6LRYP3BhWr-P2ZPLAEOWbm8vyY
+
+{
+    "userId": "69d3ae62c1ac6f071db4f0e0"
+}
+
+
+
+###
+# DELETE http://localhost:8000/api/wishlist/remove-from-wishlist/{productId} HTTP/1.1
+DELETE http://localhost:8000/api/wishlist/remove-from-wishlist/69ce08110411246c2bdcb3bd HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTU2MjM1NiwiZXhwIjoxNzc2MTY3MTU2fQ.pWZy0PueQYdMzb9_uoS94WrQf7U_fSM0S1sZPIz1jac
+content-Type: application/json
+

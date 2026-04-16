@@ -1,0 +1,44 @@
+
+//add to cart 
+###
+POST http://localhost:8000/api/cart/add-to-cart HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTU2NDk3MCwiZXhwIjoxNzc2MTY5NzcwfQ.FbGAKpkyD9N_n-Q8xVRQFi7DarbMwvotiuQXDWrC9S8
+
+{
+  "productId": "69ce05fc47365ec524b2b9d4",
+  "quantity": 3,
+  "size": "M,L,XL"
+}
+
+
+
+//get cart
+###
+GET http://localhost:8000/api/cart/get-cart HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTU2NDk3MCwiZXhwIjoxNzc2MTY5NzcwfQ.FbGAKpkyD9N_n-Q8xVRQFi7DarbMwvotiuQXDWrC9S8
+
+
+
+
+//remove from cart
+###
+# DELETE http://localhost:8000/api/cart/remove-from-cart/{productId} HTTP/1.1
+DELETE http://localhost:8000/api/cart/remove-from-cart/69ce05fc47365ec524b2b9d4 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTU2NDk3MCwiZXhwIjoxNzc2MTY5NzcwfQ.FbGAKpkyD9N_n-Q8xVRQFi7DarbMwvotiuQXDWrC9S8
+
+
+
+
+//update cart
+###
+# PUT http://localhost:8000/api/cart/update-cart/{productID} HTTP/1.1
+PUT http://localhost:8000/api/cart/update-cart/69ce05fc47365ec524b2b9d4 HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDRjOTA1MDlkNzI3ZjhjZjVkYWE0ZCIsImlhdCI6MTc3NTY0MjMwOCwiZXhwIjoxNzc2MjQ3MTA4fQ.wqcSREHy8C75Ue4drnaD1oIVcIqSGDeMa5-_fa6Qw-c
+
+{
+  "quantity": 2,
+  "size": "XL"
+}
+

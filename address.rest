@@ -1,0 +1,56 @@
+# add address mate ni api
+###
+POST http://localhost:8000/api/address/add-address HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTczMjY4NywiZXhwIjoxNzc2MzM3NDg3fQ.drOjkCfuEFgdGXapwq3nRNqA9ckxVk0tBasBHpuOgEo
+
+{
+    "name": "John Doe",
+    "mobile": "1234567890",
+    "house": "20 A Ganga Heights",
+    "area": "Shivaji Nagar",
+    "pincode": "364001",
+    "city": "Bhavnagar",
+    "state": "Gujarat",
+    "landmark": "Near the Bhavnagar University",
+    "addressType": "HOME"
+}
+
+
+# get addresses mate ni api
+###
+GET http://localhost:8000/api/address/get-addresses HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTczMjY4NywiZXhwIjoxNzc2MzM3NDg3fQ.drOjkCfuEFgdGXapwq3nRNqA9ckxVk0tBasBHpuOgEo
+
+
+
+
+# delete address mate ni api
+# DELETE http://localhost:8000/api/address/delete-address/{addressId} HTTP/1.1
+###
+DELETE http://localhost:8000/api/address/delete-address/69d793ac3d1a8a9161150e3e HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTczMjY4NywiZXhwIjoxNzc2MzM3NDg3fQ.drOjkCfuEFgdGXapwq3nRNqA9ckxVk0tBasBHpuOgEo
+
+
+
+
+# update address mate ni api
+# PUT http://localhost:8000/api/address/update-address/{addressId} HTTP/1.1
+###
+PUT http://localhost:8000/api/address/update-address/69d788c8989433076c2e2ced HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDNhZTYyYzFhYzZmMDcxZGI0ZjBlMCIsImlhdCI6MTc3NTczMjY4NywiZXhwIjoxNzc2MzM3NDg3fQ.drOjkCfuEFgdGXapwq3nRNqA9ckxVk0tBasBHpuOgEo
+
+{
+    "name": "John Doeeeo",
+    "mobile": "1234567999",
+    "house": "20 A Ganga Heightssss",
+    "area": "Shivaji Nagarrr",
+    "pincode": "36400111",
+    "city": "Bhavnagarrr",
+    "state": "Gujarattt",
+    "landmark": "Near the Bhavnagar Universityyyy",
+    "addressType": "OFFICE"
+}

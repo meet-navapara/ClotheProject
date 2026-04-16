@@ -1,0 +1,26 @@
+//get product details by id
+# GET http://localhost:8000/api/productDetails/get-product-details/{productID} HTTP/1.1
+###
+GET http://localhost:8000/api/productDetails/get-product-details/69ce076426ffda0e4d322632 HTTP/1.1
+content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZDRjOTA1MDlkNzI3ZjhjZjVkYWE0ZCIsImlhdCI6MTc3NTU1Mjc3MywiZXhwIjoxNzc2MTU3NTczfQ.pRfZpwOQPv0v1jvp1nP5TfDZbLI9SUccypbDDIG7Nmw
+
+{
+  "_id": "69d4c90509d727f8cf5daa4d",
+  "name": "Halterneck Jumpsuit",
+  "price": 1299,
+  "brand": "H&M",
+  "category": {
+    "_id": "69cd1183527e939cab46836e",
+    "name": "Tops & T-Shirts"
+  },
+  "sizes": ["S", "M", "L", "XL"],
+  "image": [
+    "https://res.cloudinary.com/dzlyngnz8/image/upload/2_edci6s.png",
+    "https://res.cloudinary.com/dzlyngnz8/image/upload/1_gnevdw.png",
+    "https://res.cloudinary.com/dzlyngnz8/image/upload/3_tsr6k0.png"
+  ],
+  "stock": 10,
+  "isBestSelling": false
+}
+

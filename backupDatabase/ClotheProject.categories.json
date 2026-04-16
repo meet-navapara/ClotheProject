@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "69cd1183527e939cab46836e"
+  },
+  "name": "Tops & T-Shirts",
+  "image": {
+    "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/tshirt_omqn1x.png",
+    "public_id": null
+  },
+  "createdAt": {
+    "$date": "2026-04-01T12:37:23.585Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-01T12:37:23.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cd11a7527e939cab468370"
+  },
+  "name": "Dresses & Jumpsuits",
+  "image": {
+    "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/2_ge9y30.png",
+    "public_id": null
+  },
+  "createdAt": {
+    "$date": "2026-04-01T12:37:59.806Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-01T12:37:59.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cd1251527e939cab468372"
+  },
+  "name": "Bottoms",
+  "image": {
+    "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/3_imuskf.png",
+    "public_id": null
+  },
+  "createdAt": {
+    "$date": "2026-04-01T12:40:49.078Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-01T12:40:49.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cd1314527e939cab468374"
+  },
+  "name": "Dresses",
+  "image": {
+    "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/4_siyae3.png",
+    "public_id": null
+  },
+  "createdAt": {
+    "$date": "2026-04-01T12:44:04.045Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-01T12:44:04.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cd133c527e939cab468376"
+  },
+  "name": "Winter & Outerwear",
+  "image": {
+    "url": "https://res.cloudinary.com/dzlyngnz8/image/upload/5_ct8yzq.png",
+    "public_id": null
+  },
+  "createdAt": {
+    "$date": "2026-04-01T12:44:44.527Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-01T12:44:44.527Z"
+  },
+  "__v": 0
+}]
