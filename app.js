@@ -14,7 +14,11 @@ app.use(express.json()); //convert json into javascript object //parses JSON req
 app.use(express.urlencoded({ extended: true })); //allows nested objects
 
 app.use(cors({ //allow request from any origin
-    origin : "http://localhost:5173",
+    origin : [
+      "http://localhost:5173",
+      "https://front-end-clothe.vercel.app",
+    ],
+
     credentials: true,
 }));
 
